@@ -106,3 +106,20 @@ Make sure "Registration Required" is unchecked and click "save changes".
 
 <h3>(5)Configure Agents</h3>   
 
+Admin panel -> Agents -> Agents -> Add New Agent    
+
+
+
+![image](https://github.com/user-attachments/assets/6a78cc25-06d5-456d-984d-f684ec997799)   
+
+Add to "System Administrators" and "Supreme Admin"  
+![image](https://github.com/user-attachments/assets/44bccc05-e353-4406-851f-1913c3f3dbb5)   
+
+Add to "Level 2 Support" and click "Create".  
+![image](https://github.com/user-attachments/assets/3affc33c-b60f-4063-b0bb-d2b2aaa9b9bf)
+
+<br> 
+<br>
+<br>
+
+<h3>(6) Configure Users</h3>
