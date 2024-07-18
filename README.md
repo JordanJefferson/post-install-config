@@ -1,4 +1,4 @@
-# post-install-config
+
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
@@ -6,10 +6,6 @@
 <h1>osTicket - Post-Install Configuration</h1>
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -23,34 +19,90 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Configure Roles
+Admin Panel -> Agents -> Roles
+Supreme Admin
+- Configure Departments
+Admin Panel -> Agents -> Departments
+System Administrators
+- Configure Teams
+Admin Panel -> Agents -> Teams
+Level I Support
+Level II Support
+- Allow anyone to create tickets
+Admin Panel -> Settings -> User Settings
+Registration Required: Require registration and login to create tickets 
+- Configure Agents (workers)
+Admin Panel -> Agents -> Add New
+Jane
+John
+-Configure Users (customers)
+Agent Panel -> Users -> Add New
+Karen
+Ken
+-Configure SLA
+Admin Panel -> Manage -> SLA
+Sev-A (1 hour, 24/7)
+Sev-B (4 hours, 24/7)
+Sev-C (8 hours, business hours)
+- Configure Help Topics
+Admin Panel -> Manage -> Help Topics
+Business Critical Outage
+Personal Computer Issues
+Equipment Request
+Password Reset
+
 
 <h2>Configuration Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<h3>(1) Create Role</h3>
+  
+In the admin panel, click Agents -> Panels -> Add New Role.  Create a role called "Supreme Admin" to manage all aspects of the system.    
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Enable all Tickets, Tasks, and Knowlegebase. Click "save changes".  
+![image](https://github.com/user-attachments/assets/18cb00b8-b9af-4d79-834b-269b5258ae4a) 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<br> 
+<br>
+<br>
+
+<h3>(2) Create Department</h3>   
+
+Click Agents -> Departments -> Add New Departmment. Create department called "System Administrators".  
+
+leave settings default and click "save changes".  
+
+![image](https://github.com/user-attachments/assets/1a85c69f-c1fc-423e-9bb5-b04582018811)   
+
+<br> 
+<br>
+<br>
+
+<h3>(3) Create teams</h3>   
+
+click Agents -> Teams -> Add New Team. Create ne team called "Level 2 Support".   
+
+Add Yourself as a member and click "save changes".
+
+![image](https://github.com/user-attachments/assets/65c0d724-f6e0-4e58-952a-c150a4ceff8c)   
+
+![image](https://github.com/user-attachments/assets/b1b57175-bb16-4ff9-97db-5d3dca7b18f4)   
+
+<br> 
+<br>
+<br>
+
+<h3>(4) Confirm anyone is allowed to create tickets</h3>   
+
+Admin panel -> Settings -> users.  
+
+Make sure "Registration Required" is unchecked and click "save changes".   
+
+![image](https://github.com/user-attachments/assets/149f6f33-1148-456f-a6ef-bd083560dd92)
+
+<br> 
+<br>
+<br>  
+
+<h3>(5)Configure Agents</h3>   
+
