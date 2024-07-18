@@ -55,7 +55,7 @@ Password Reset
 
 <h2>Configuration Steps</h2>
 
-<h3>(1) Create Role</h3>
+<h3>(1) Configure Role https://docs.osticket.com/en/latest/Admin/Agents/Roles.html</h3>
   
 In the admin panel, click Agents -> Panels -> Add New Role.  Create a role called "Supreme Admin" to manage all aspects of the system.    
 
@@ -66,7 +66,7 @@ Enable all Tickets, Tasks, and Knowlegebase. Click "save changes".
 <br>
 <br>
 
-<h3>(2) Create Department</h3>   
+<h3>(2) Configure Department</h3>   
 
 Click Agents -> Departments -> Add New Departmment. Create department called "System Administrators".  
 
@@ -78,7 +78,7 @@ leave settings default and click "save changes".
 <br>
 <br>
 
-<h3>(3) Create teams</h3>   
+<h3>(3) Configure teams</h3>   
 
 click Agents -> Teams -> Add New Team. Create ne team called "Level 2 Support".   
 
