@@ -68,7 +68,7 @@ Add Yourself as a member and click "save changes".
 <br>
 <br>
 
-<h3>(4) Confirm anyone is allowed to create tickets</h3>   
+<h3>(4) Confirm everyone is allowed to create tickets</h3>   
 
 Admin panel -> Settings -> users.  
 
