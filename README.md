@@ -111,7 +111,48 @@ Add to "Support" and "View only". Click "Create".
 
 <h3>(6) Configure Users https://docs.osticket.com/en/latest/Agent/Users/User%20Directory.html</h3>    
 
+Agent panel -> Users -> Add User    
 
+Create 2 Users, Lewis and Kate.
 
+<h4>Lewis</h4>   
+
+![image](https://github.com/user-attachments/assets/6fc2a81d-03cd-47c0-b918-584bfdad5bdb)
+
+<h4>Kate</h4>   
+
+![image](https://github.com/user-attachments/assets/6bb70dbf-a0df-4670-8f78-ef71b1cf6667)
+
+<br> 
+<br>
+<br>
 
 <h3>(7) Configure SLA https://docs.osticket.com/en/latest/Admin/Manage/SLA%20Plans.html</h3>
+
+Admin panel -> Manage -> SLA -> Add New SLA Plan   
+
+Create SEV-A, SEV-B, and SEV-C.   
+
+<h4>SEV-A</h4>
+
+![image](https://github.com/user-attachments/assets/0cd1e45f-f582-416b-814c-d61ac274efe3)    
+
+<h4>SEV-B</h4>
+
+![image](https://github.com/user-attachments/assets/5b3052d9-dd87-486f-8a76-c3412bb101c1)   
+
+<h4>SEV-C</h4>   
+
+![image](https://github.com/user-attachments/assets/e5721460-3ef1-4583-9cf8-926b50f2eba9)
+
+<br> 
+<br>
+<br>  
+
+<h3>(8) Configure Help Topics</h3>   
+
+Admin panel -> Manager -> Help Topics   
+
+Create Business Critical Outage, Personal Computer Issues, Equipment Request, and Password Reset.   
+
+![image](https://github.com/user-attachments/assets/7b3abc36-157f-48a4-a23f-d9ed21326d32)
