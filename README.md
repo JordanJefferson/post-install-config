@@ -22,7 +22,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Configure Roles
 - Configure Departments
 - Configure Teams
-- Allow anyone to create tickets
+- Allow anyone to Create Tickets
 - Configure Agents (workers) 
 - Configure Users (customers)
 - Configure SLA
@@ -33,12 +33,12 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h3>(1) Configure Role   
   
-Objective: Define roles to manage permissions for different user types.</h3>
+Objective: Define Roles to manage permissions for different user types.</h3>
   
   
 In the admin panel, click Agents -> Panels -> Add New Role.  Create a role called "Supreme Admin".    
 
-Enable all Tickets, Tasks, and Knowlegebase. Click "save changes".  
+Enable all Tickets, Tasks, and Knowledgebase. Click "Save Changes".  
 ![image](https://github.com/user-attachments/assets/18cb00b8-b9af-4d79-834b-269b5258ae4a) 
 
 <br> 
@@ -47,11 +47,11 @@ Enable all Tickets, Tasks, and Knowlegebase. Click "save changes".
 
 <h3>(2) Configure Department   
 
-Objective: Organize agents into departments based on their responsibities.</h3>   
+Objective: Organize Agents into Departments based on their responsibities.</h3>   
 
-Click Agents -> Departments -> Add New Departmment. Create department called "System Administrators".  
+Click Agents -> Departments -> Add New Department. Create department called "System Administrators".  
 
-leave settings default and click "save changes".  
+Leave settings default and click "Save Changes".  
 
 ![image](https://github.com/user-attachments/assets/1a85c69f-c1fc-423e-9bb5-b04582018811)   
 
@@ -61,11 +61,11 @@ leave settings default and click "save changes".
 
 <h3>(3) Configure teams   
 
-Objective: Group agents into teams for better task management.</h3>   
+Objective: Group Agents into Teams for better task management.</h3>   
 
-click Agents -> Teams -> Add New Team. Create ne team called "Level 2 Support".   
+Click Agents -> Teams -> Add New Team. Create new team called "Level 2 Support".   
 
-Add Yourself as a member and click "save changes".
+Add yourself as a member and click "Save Changes".
 
 ![image](https://github.com/user-attachments/assets/65c0d724-f6e0-4e58-952a-c150a4ceff8c)   
 
@@ -79,9 +79,9 @@ Add Yourself as a member and click "save changes".
 
 Objective: Ensure that all users can submit tickets without needing ann account.</h3>   
 
-Admin panel -> Settings -> users.  
+Admin panel -> Settings -> Users.  
 
-Make sure "Registration Required" is unchecked and click "save changes".   
+Make sure "Registration Required" is unchecked and click "Save Changes".   
 
 ![image](https://github.com/user-attachments/assets/149f6f33-1148-456f-a6ef-bd083560dd92)
 
@@ -91,7 +91,7 @@ Make sure "Registration Required" is unchecked and click "save changes".
 
 <h3>(5)Configure Agents   
 
-Objective: Create agents who will handle the tickets.</h3>   
+Objective: Create Agents who will handle the tickets.</h3>   
 
 Admin panel -> Agents -> Agents -> Add New Agent    
 
@@ -122,11 +122,11 @@ Add to "Support" and "View only". Click "Create".
 
 <h3>(6) Configure Users   
 
-Objective: Create users who will submit tickets.</h3>    
+Objective: Create Users who will submit tickets.</h3>    
 
 Agent panel -> Users -> Add User    
 
-Create 2 Users, Lewis and Kate.
+Create two Users, Lewis and Kate.
 
 <h4>Lewis</h4>   
 
