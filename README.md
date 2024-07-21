@@ -47,7 +47,7 @@ Enable all Tickets, Tasks, and Knowledgebase. Click "Save Changes".
 
 <h3>(2) Configure Department   
 
-Objective: Organize Agents into Departments based on their responsibities.</h3>   
+Objective: Organize Agents into Departments based on their responsibilities.</h3>   
 
 Click Agents -> Departments -> Add New Department. Create department called "System Administrators".  
 
@@ -77,7 +77,7 @@ Add yourself as a member and click "Save Changes".
 
 <h3>(4) allow anyone to create tickets   
 
-Objective: Ensure that all users can submit tickets without needing ann account.</h3>   
+Objective: Ensure that all users can submit tickets without needing an account.</h3>   
 
 Admin panel -> Settings -> Users.  
 
