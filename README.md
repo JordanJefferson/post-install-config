@@ -4,7 +4,7 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket, ensuring it is fully operational and tailored to your organizations needs.<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -31,7 +31,10 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Configuration Steps</h2>
 
-<h3>(1) Configure Role https://docs.osticket.com/en/latest/Admin/Agents/Roles.html</h3>
+<h3>(1) Configure Role   
+  
+Objective: Define roles to manage permissions for different user types.</h3>
+  
   
 In the admin panel, click Agents -> Panels -> Add New Role.  Create a role called "Supreme Admin".    
 
@@ -42,7 +45,9 @@ Enable all Tickets, Tasks, and Knowlegebase. Click "save changes".
 <br>
 <br>
 
-<h3>(2) Configure Department https://docs.osticket.com/en/latest/Admin/Agents/Departments.html</h3>   
+<h3>(2) Configure Department   
+
+Objective: Organize agents into departments based on their responsibities.</h3>   
 
 Click Agents -> Departments -> Add New Departmment. Create department called "System Administrators".  
 
@@ -54,7 +59,9 @@ leave settings default and click "save changes".
 <br>
 <br>
 
-<h3>(3) Configure teams https://docs.osticket.com/en/latest/Admin/Agents/Teams.html</h3>   
+<h3>(3) Configure teams   
+
+Objective: Group agents into teams for better task management.</h3>   
 
 click Agents -> Teams -> Add New Team. Create ne team called "Level 2 Support".   
 
@@ -68,7 +75,9 @@ Add Yourself as a member and click "save changes".
 <br>
 <br>
 
-<h3>(4) Confirm everyone is allowed to create tickets</h3>   
+<h3>(4) allow anyone to create tickets   
+
+Objective: Ensure that all users can submit tickets without needing ann account.</h3>   
 
 Admin panel -> Settings -> users.  
 
@@ -80,7 +89,9 @@ Make sure "Registration Required" is unchecked and click "save changes".
 <br>
 <br>  
 
-<h3>(5)Configure Agents https://docs.osticket.com/en/latest/Admin/Agents/Agents.html</h3>   
+<h3>(5)Configure Agents   
+
+Objective: Create agents who will handle the tickets.</h3>   
 
 Admin panel -> Agents -> Agents -> Add New Agent    
 
@@ -109,7 +120,9 @@ Add to "Support" and "View only". Click "Create".
 <br>
 <br>
 
-<h3>(6) Configure Users https://docs.osticket.com/en/latest/Agent/Users/User%20Directory.html</h3>    
+<h3>(6) Configure Users   
+
+Objective: Create users who will submit tickets.</h3>    
 
 Agent panel -> Users -> Add User    
 
@@ -127,7 +140,9 @@ Create 2 Users, Lewis and Kate.
 <br>
 <br>
 
-<h3>(7) Configure SLA https://docs.osticket.com/en/latest/Admin/Manage/SLA%20Plans.html</h3>
+<h3>(7) Configure SLA   
+
+Objective: Define Service Level Agreements (SLAs) to manage ticket response times.</h3>
 
 Admin panel -> Manage -> SLA -> Add New SLA Plan   
 
@@ -149,10 +164,15 @@ Create SEV-A, SEV-B, and SEV-C.
 <br>
 <br>  
 
-<h3>(8) Configure Help Topics</h3>   
+<h3>(8) Configure Help Topics   
+
+Objective: Define categories for ticket submission to streamline support.</h3>   
 
 Admin panel -> Manager -> Help Topics   
 
 Create Business Critical Outage, Personal Computer Issues, Equipment Request, and Password Reset.   
 
 ![image](https://github.com/user-attachments/assets/7b3abc36-157f-48a4-a23f-d9ed21326d32)
+
+
+<h1>Congratulations! You've completed the post installation configuration of osTicket.</h1>
