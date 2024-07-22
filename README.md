@@ -31,9 +31,9 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Configuration Steps</h2>
 
-<h3>(1) Configure Role   
+<h3>(1) Configure Role</h3>   
   
-Objective: Define Roles to manage permissions for different user types.</h3>
+<h4>Objective: Define Roles to manage permissions for different user types.</h4>
   
   
 In the admin panel, click Agents -> Panels -> Add New Role.  Create a role called "Supreme Admin".    
@@ -45,9 +45,9 @@ Enable all Tickets, Tasks, and Knowledgebase. Click "Save Changes".
 <br>
 <br>
 
-<h3>(2) Configure Department   
+<h3>(2) Configure Department</h3>   
 
-Objective: Organize Agents into Departments based on their responsibilities.</h3>   
+<h4>Objective: Organize Agents into Departments based on their responsibilities.</h4>   
 
 Click Agents -> Departments -> Add New Department. Create department called "System Administrators".  
 
@@ -59,9 +59,9 @@ Leave settings default and click "Save Changes".
 <br>
 <br>
 
-<h3>(3) Configure teams   
+<h3>(3) Configure teams</h3>   
 
-Objective: Group Agents into Teams for better task management.</h3>   
+<h4>Objective: Group Agents into Teams for better task management.</h4>   
 
 Click Agents -> Teams -> Add New Team. Create new team called "Level 2 Support".   
 
@@ -75,9 +75,9 @@ Add yourself as a member and click "Save Changes".
 <br>
 <br>
 
-<h3>(4) allow anyone to create tickets   
+<h3>(4) allow anyone to create tickets</h3>   
 
-Objective: Ensure that all users can submit tickets without needing an account.</h3>   
+<h4>Objective: Ensure that all users can submit tickets without needing an account.</h4>   
 
 Admin panel -> Settings -> Users.  
 
@@ -89,9 +89,9 @@ Make sure "Registration Required" is unchecked and click "Save Changes".
 <br>
 <br>  
 
-<h3>(5)Configure Agents   
+<h3>(5)Configure Agents</h3>   
 
-Objective: Create Agents who will handle the tickets.</h3>   
+<h4>Objective: Create Agents who will handle the tickets.</h4>   
 
 Admin panel -> Agents -> Agents -> Add New Agent    
 
@@ -120,9 +120,9 @@ Add to "Support" and "View only". Click "Create".
 <br>
 <br>
 
-<h3>(6) Configure Users   
+<h3>(6) Configure Users</h3>   
 
-Objective: Create Users who will submit tickets.</h3>    
+<h4>Objective: Create Users who will submit tickets.</h4>    
 
 Agent panel -> Users -> Add User    
 
@@ -140,9 +140,9 @@ Create two Users, Lewis and Kate.
 <br>
 <br>
 
-<h3>(7) Configure SLA   
+<h3>(7) Configure SLA</h3>   
 
-Objective: Define Service Level Agreements (SLAs) to manage ticket response times.</h3>
+<h4>Objective: Define Service Level Agreements (SLAs) to manage ticket response times.</h4>
 
 Admin panel -> Manage -> SLA -> Add New SLA Plan   
 
@@ -164,9 +164,9 @@ Create SEV-A, SEV-B, and SEV-C.
 <br>
 <br>  
 
-<h3>(8) Configure Help Topics   
+<h3>(8) Configure Help Topics</h3>   
 
-Objective: Define categories for ticket submission to streamline support.</h3>   
+<h4>Objective: Define categories for ticket submission to streamline support.</h4>   
 
 Admin panel -> Manager -> Help Topics   
 
