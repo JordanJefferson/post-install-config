@@ -101,8 +101,9 @@ Create two Agents, Jane and John
 
 ![image](https://github.com/user-attachments/assets/3babf588-b93b-41bd-96b9-8fcef97422c8)   
    
-Add to "System Administrators" and "Supreme Admin"  
-![image](https://github.com/user-attachments/assets/44bccc05-e353-4406-851f-1913c3f3dbb5)   
+Primary Department add "System Administrators" and "Supreme Admin".  Extended Access add "Support" and Supreme Admin.   
+![image](https://github.com/user-attachments/assets/0d7ad361-30f6-4524-a6fb-5a2eef61cda1)
+  
 
 Add to "Level 2 Support" and click "Create".  
 ![image](https://github.com/user-attachments/assets/3affc33c-b60f-4063-b0bb-d2b2aaa9b9bf)   
